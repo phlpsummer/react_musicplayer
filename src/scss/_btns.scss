@@ -1,0 +1,12 @@
+.btnPrev {
+    font: bold 16px/1 'arial'; color: #fff;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-300px,-50%);
+    cursor: pointer;
+  }
+  .btnNext {
+    font: bold 16px/1 'arial'; color: #fff;
+    position: absolute; top: 50%; right: 50%;
+    transform: translate(300px,-50%);
+    cursor: pointer;
+  }

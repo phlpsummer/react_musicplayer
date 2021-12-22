@@ -42,7 +42,8 @@ figure {
     top: 150%;
     left: 50%;
     margin-top: -250px;
-    margin-left: -150px; }
+    margin-left: -150px;
+    transition: 1s; }
     figure section article {
       width: 100%;
       height: 100%;
@@ -74,6 +75,22 @@ figure {
           color: #777;
           width: 100%;
           text-align: center; }
+  figure .btnPrev {
+    font: bold 16px/1 'arial';
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-300px, -50%);
+    cursor: pointer; }
+  figure .btnNext {
+    font: bold 16px/1 'arial';
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(300px, -50%);
+    cursor: pointer; }
   figure > p {
     position: absolute;
     bottom: 7vh;
